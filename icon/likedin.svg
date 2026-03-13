@@ -1,0 +1,15 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<!-- borda -->
+<rect x="2.6667" y="2.6667" width="26.6666" height="26.6666" rx="6" stroke="#97EDAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></rect>
+
+<!-- ponto do i -->
+<circle cx="10" cy="12" r="1.2" stroke="#97EDAA" stroke-width="2"></circle>
+
+<!-- linha do i -->
+<line x1="10" y1="14.5" x2="10" y2="22" stroke="#97EDAA" stroke-width="2" stroke-linecap="round"></line>
+
+<!-- n -->
+<path d="M15 22V15.5C15 14 16 13 17.5 13C19 13 20 14 20 15.5V22" stroke="#97EDAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+
+</svg>

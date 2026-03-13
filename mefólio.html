@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&family=Syne:wght@400..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&family=Syne:wght@400..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Mefólio</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#97EDAA",
+              secondary: "#0B0B0B",
+              tertiary: "#101010",
+              quaternary: "#1F1F1F",
+              quinary: "#FFFFFF",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+
+  <body class="bg-secondary">
+    <div class="max-w-[1216px] mx-auto">
+      <header
+        class="w-full flex justify-between py-8 border-b-2 border-tertiary"
+      >
+        <p
+          class="text-primary font-['Fira_Code'] after:content-['/>'] before:content-['<'] text-2xl"
+        >
+          João Neto
+        </p>
+        <nav class="flex gap-[56px] text-white font-['Archivo']">
+          <a href="#inicio" class="hover:text-primary text-lg font-medium"
+            >Início</a
+          >
+          <a href="#sobremim" class="hover:text-primary text-lg font-medium"
+            >Sobre mim</a
+          >
+          <a href="#projetos" class="hover:text-primary text-lg font-medium"
+            >Projetos</a
+          >
+
+          <a href="#servicos" class="hover:text-primary text-lg font-medium"
+            >Serviços</a
+          >
+          <a href="#habilidades" class="hover:text-primary text-lg font-medium"
+            >Habilidades</a
+          >
+        </nav>
+      </header>
+      <main>
+        <section id="inicio" class="flex justify-around w-full mt-8">
+          <div class="flex justify-center flex-col">
+            <p class="font-medium font-['Archivo'] text-2xl text-white mb-3">
+              Olá, sou
+            </p>
+            <h1 class="text-5xl text-primary mb-7 font-['Archivo']">
+              João Neto
+            </h1>
+            <h2 class="font-['Archivo'] text-2xl text-white mb-12">
+              Desenvolvedor Frontend & Gestor em TI.
+            </h2>
+            <button
+              class="bg-primary text-secondary font-['Archivo'] font-medium w-fit py-[10px] px-10 rounded-sm hover:bg-primary/90 transition-colors"
+            >
+              Baixar currículo
+            </button>
+          </div>
+          <div>
+            <img
+              src="icon/eu.png"
+              alt="Imagem de destaque"
+              class="w-80 rounded-full border-2 border-primary shadow-lg"
+            />
+          </div>
+        </section>
+
+        <section id="sobremim" class="mt-15">
+          <div class="flex flex-col">
+            <h3
+              class="text-primary text-[32px] text-center font-['Archivo'] mb-[48px] mt-[80px]"
+            >
+              Sobre mim
+            </h3>
+            <p
+              class="text-quinary text-2xl font-['Archivo'] mb-16 text-center leading-[40px]"
+            >
+              Meu nome é João Neto, ou “Netinho Dev” (como muitos me chamam ).
+              Sou desenvolvedor Frontend e também tenho experiência com
+              hardware, unindo software e tecnologia na prática. Sou formado em
+              Análise de Dados pela ETE de Pernambuco e também concluí a faculdade de Gestão
+              em Tecnologia da Informação. Atualmente desenvolvo projetos
+              focados em interfaces modernas, responsivas e bem estruturadas,
+              sempre buscando performance, boa experiência do usuário e código
+              limpo. Gosto de trabalhar criando soluções eficientes que conectam
+              design, desenvolvimento e tecnologia. 💻⚡
+            </p>
+            <ul class="flex gap-[122px] justify-center">
+              <li class="flex flex-col gap-[20px] items-center">
+                <div
+                  class="rounded-full border border-quaternary flex items-center justify-center w-[62px] h-[62px] bg-[#101010]"
+                >
+                  <a href="https://www.linkedin.com/in/netinhodev "><img src="./icon/likedin.svg" alt="likedin" /></a>
+                </div>
+                <a href="https://www.linkedin.com/in/netinhodev "><h4 class="text-xl text-quinary font-['Archivo']">LikedIn</h4></a>
+                <a
+                  href="https://www.linkedin.com/in/netinhodev " class="text-quinary font-['Archivo']"
+                  >Netinho_dev</a
+                >
+              </li>
+              <li class="flex flex-col gap-[20px] items-center">
+                <div
+                  class="rounded-full border border-quaternary flex items-center justify-center w-[62px] h-[62px] bg-[#101010]"
+                >
+                  <a href="mailto:netinhodev36@gmail.com""><img src="./icon/mail.svg" alt="Email" /></a>
+                </div>
+                <a href="mailto:netinhodev36@gmail.com">
+                  <h4 class="text-xl text-quinary font-['Archivo']">E-mail</h4></a>
+                <a href="mailto:netinhodev36@gmail.com">
+                  <h5 class="text-lg text-quinary font-['Archivo']">
+                  netinhodev36@gmail.co
+                </h5></a>
+              </li>
+              <li class="flex flex-col gap-[20px] items-center">
+                <div
+                  class="rounded-full border border-quaternary flex items-center justify-center w-[62px] h-[62px] bg-[#101010]"
+                >
+                  <a href="https://www.instagram.com/nettinho_36?igsh=MXI3Z3NnOGdqNjZ0YQ%3D%3D&utm_source=qr"><img src="./icon/instagram.svg" alt="Instagram" /></a>
+                </div>
+                <a href="https://www.instagram.com/nettinho_36?igsh=MXI3Z3NnOGdqNjZ0YQ%3D%3D&utm_source=qr"><h4 class="text-xl text-quinary font-['Archivo']">Instagram</h4></a>
+                <a
+                  href="https://www.instagram.com/nettinho_36?igsh=MXI3Z3NnOGdqNjZ0YQ%3D%3D&utm_source=qr"
+                  class="text-lg text-quinary font-['Archivo']"
+                >
+                  @nettinho_36
+                </a>
+              </li>
+              <li class="flex flex-col gap-[20px] items-center">
+                <div
+                  class="rounded-full border border-quaternary flex items-center justify-center w-[62px] h-[62px] bg-[#101010]"
+                >
+                  <a href="tel:+5581992295036"><img src="./icon/phone.svg" alt="Telefone" /></a>
+                </div>
+                <a href="tel:+5581992295036"><h4 class="text-xl text-quinary font-['Archivo']">Telefone</h4></a>
+                <a href="tel:+5581992295036"><h5 class="text-lg text-quinary font-['Archivo']">
+                  (81) 99229-5036
+                </h5></a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="projetos" class="mt-[150px]">
+          <h2
+            class="text-primary text-[32px] text-center font-['Archivo'] mb-12"
+          >
+            Projetos
+          </h2>
+          <ul class="grid grid-cols-2 gap-[32px]">
+            <li class="flex flex-col">
+              <div
+                class="bg-[#101010] flex items-center justify-center h-[200px] max-h-[200px] border border-quaternary rounded-sm mb-[32px]"
+              >
+                <h3 class="text-primary text-2xl font-['Archivo']">
+                  Imagem projeto
+                </h3>
+              </div>
+              <h4
+                class="font-['Archivo'] font-medium text-quinary text-2xl mb-6"
+              >
+                Nome do projeto
+              </h4>
+              <h5 class="font-['Archivo'] text-primary font-medium text-lg">
+                Tecnologias usadas no projeto
+              </h5>
+              <div class="flex gap-[32px] mt-[32px]">
+                <button
+                  class="bg-primary text-secondary font-['Archivo'] font-medium w-fit py-[10px] px-10 rounded-sm hover:bg-primary/90 transition-colors"
+                >
+                  Acessar o projeto
+                </button>
+                <button
+                  class="bg-transparent text-primary border-2 border-primary font-['Archivo'] font-medium w-fit py-[10px] px-10 rounded-sm hover:bg-primary/90 transition-colors hover:text-secondary"
+                >
+                  Acessar repositório
+                </button>
+              </div>
+            </li>
+            <li class="flex flex-col">
+              <div
+                class="bg-[#101010] flex items-center justify-center h-[200px] max-h-[200px] border border-quaternary rounded-sm mb-[32px]"
+              >
+                <h3 class="text-primary text-2xl font-['Archivo']">
+                  Imagem projeto
+                </h3>
+              </div>
+              <h4
+                class="font-['Archivo'] font-medium text-quinary text-2xl mb-6"
+              >
+                Nome do projeto
+              </h4>
+              <h5 class="font-['Archivo'] text-primary font-medium text-lg">
+                Tecnologias usadas no projeto
+              </h5>
+              <div class="flex gap-[32px] mt-[32px]">
+                <button
+                  class="bg-primary text-secondary font-['Archivo'] font-medium w-fit py-[10px] px-10 rounded-sm hover:bg-primary/90 transition-colors"
+                >
+                  Acessar o projeto
+                </button>
+                <button
+                  class="bg-transparent text-primary border-2 border-primary font-['Archivo'] font-medium w-fit py-[10px] px-10 rounded-sm hover:bg-primary/90 transition-colors hover:text-secondary"
+                >
+                  Acessar repositório
+                </button>
+              </div>
+            </li>
+            <li class="flex flex-col">
+              <div
+                class="bg-[#101010] flex items-center justify-center h-[200px] max-h-[200px] border border-quaternary rounded-sm mb-[32px]"
+              >
+                <h3 class="text-primary text-2xl font-['Archivo']">
+                  Imagem projeto
+                </h3>
+              </div>
+              <h4
+                class="font-['Archivo'] font-medium text-quinary text-2xl mb-6"
+              >
+                Nome do projeto
+              </h4>
+              <h5 class="font-['Archivo'] text-primary font-medium text-lg">
+                Tecnologias usadas no projeto
+              </h5>
+              <div class="flex gap-[32px] mt-[32px]">
+                <button
+                  class="bg-primary text-secondary font-['Archivo'] font-medium w-fit py-[10px] px-10 rounded-sm hover:bg-primary/90 transition-colors"
+                >
+                  Acessar o projeto
+                </button>
+                <button
+                  class="bg-transparent text-primary border-2 border-primary font-['Archivo'] font-medium w-fit py-[10px] px-10 rounded-sm hover:bg-primary/90 transition-colors hover:text-secondary"
+                >
+                  Acessar repositório
+                </button>
+              </div>
+            </li>
+            <li class="flex flex-col">
+              <div
+                class="bg-[#101010] flex items-center justify-center h-[200px] max-h-[200px] border border-quaternary rounded-sm mb-[32px]"
+              >
+                <h3 class="text-primary text-2xl font-['Archivo']">
+                  Imagem projeto
+                </h3>
+              </div>
+              <h4
+                class="font-['Archivo'] font-medium text-quinary text-2xl mb-6"
+              >
+                Nome do projeto
+              </h4>
+              <h5 class="font-['Archivo'] text-primary font-medium text-lg">
+                Tecnologias usadas no projeto
+              </h5>
+              <div class="flex gap-[32px] mt-[32px]">
+                <button
+                  class="bg-primary text-secondary font-['Archivo'] font-medium w-fit py-[10px] px-10 rounded-sm hover:bg-primary/90 transition-colors"
+                >
+                  Acessar o projeto
+                </button>
+                <button
+                  class="bg-transparent text-primary border-2 border-primary font-['Archivo'] font-medium w-fit py-[10px] px-10 rounded-sm hover:bg-primary/90 transition-colors hover:text-secondary"
+                >
+                  Acessar repositório
+                </button>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <section id="servicos" class="mt-[150px]">
+          <h2
+            class="text-primary text-[32px] text-center font-['Archivo'] mb-12"
+          >
+            Serviços
+          </h2>
+          <ul class="flex gap-[32px]">
+            <li
+              class="flex flex-col px-10 py-12 bg-[#101010] gap-[38px] w-full border-t border-r border-l border-quaternary border-b-4 border-b-primary"
+            >
+              <img
+                src="./icon/code.svg"
+                alt="Código"
+                class="w-[56px] h-[56px]"
+              />
+              <h3
+                class="text-[32px] font-['Archivo'] text-quinary max-w-[118px]"
+              >
+                Criação de sites
+              </h3>
+            </li>
+            <li
+              class="flex flex-col px-10 py-12 bg-[#101010] gap-[38px] w-full border-t border-r border-l border-quaternary border-b-4 border-b-primary"
+            >
+              <img
+                src="./icon/figma.svg"
+                alt="Código"
+                class="w-[56px] h-[56px]"
+              />
+              <h3
+                class="text-[32px] font-['Archivo'] text-quinary max-w-[118px]"
+              >
+                Consultoria/ Gestão de TI
+              </h3>
+            </li>
+            <li
+              class="flex flex-col px-10 py-12 bg-[#101010] gap-[38px] w-full border-t border-r border-l border-quaternary border-b-4 border-b-primary"
+            >
+              <img
+                src="./icon/smartphone.svg"
+                alt="Código"
+                class="w-[56px] h-[56px]"
+              />
+              <h3
+                class="text-[32px] font-['Archivo'] text-quinary max-w-[118px]"
+              >
+                Sites responsivos
+              </h3>
+            </li>
+          </ul>
+        </section>
+
+        <section id="habilidades" class="my-[150px]">
+          <h2
+            class="text-primary text-[32px] text-center font-['Archivo'] mb-12"
+          >
+            Habilidades
+          </h2>
+          <ul class="flex gap-[32px]">
+            <li
+              class="bg-[#101010] flex items-center justify-center p-[36px] w-full border border-quaternary"
+            >
+              <img src="./icon/icomoon-free_html-five.svg" alt="HTML" />
+            </li>
+            <li
+              class="bg-[#101010] flex items-center justify-center p-[36px] w-full border border-quaternary"
+            >
+              <img src="./icon/fontisto_css3.svg" alt="CSS" />
+            </li>
+            <li
+              class="bg-[#101010] flex items-center justify-center p-[36px] w-full border border-quaternary"
+            >
+              <img
+                src="./icon/akar-icons_javascript-fill.svg"
+                alt="JavaScript"
+              />
+            </li>
+            <li
+              class="bg-[#101010] flex items-center justify-center p-[36px] w-full border border-quaternary"
+            >
+              <img src="./icon/file-icons_tailwind.svg" alt="Tailwind CSS" />
+            </li>
+            <li
+              class="bg-[#101010] flex items-center justify-center p-[36px] w-full border border-quaternary"
+            >
+              <img src="./icon/akar-icons_react-fill.svg" alt="React" />
+            </li>
+            <li
+              class="bg-[#101010] flex items-center justify-center p-[36px] w-full border border-quaternary"
+            >
+              <img src="./icon/logos_nextjs.svg" alt="Next.js" />
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+    <footer class="w-full bg-[#101010] py-[40px]">
+      <div class="max-w-[1216px] mx-auto flex justify-between">
+        <p class="font-['Archivo'] text-lg text-quinary font-medium">
+          @ 2022 - Iuri Silva
+        </p>
+        <p class="font-['Archivo'] text-lg text-quinary font-medium">
+          Powered by <span class="text-primary">{ }</span>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
